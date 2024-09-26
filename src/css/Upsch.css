@@ -3,6 +3,7 @@
     margin-top:20px ;
     padding: 10px;
     border-radius: 12px;
+    width: 27vw;
 }
 
 .ups-head{
@@ -21,6 +22,7 @@ justify-content: space-between;
    color: #ff5151;
    width: 100%;
    border: none;
+   background: transparent;
 }
 .p-head>h4 , .ot-head>h4{
     font-family: "Poppins", sans-serif;
@@ -28,4 +30,9 @@ justify-content: space-between;
     font-size: 12px;
     line-height: 28px;
     color: #686868;
+}
+@media (max-width :1024px) {
+    .ups-external{
+        width: 68vw;
+    }
 }

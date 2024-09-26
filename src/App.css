@@ -3,6 +3,7 @@
 {
   margin: 0%;
   padding: 0%;
+  overflow: hidden;
 }
 .app-external{
   display: flex;
@@ -10,6 +11,6 @@
  /* overflow: hidden; */
 }
 .app-internal{
-  margin-left: 50px;
+  margin-left: 1.5vw;
   margin-right: auto;
 }

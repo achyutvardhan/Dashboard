@@ -1,6 +1,6 @@
 .sbgp-external{
-    width: 204px;
-    height: 136px;
+    width: 12vw;
+    height: auto;
     /* border: 1px solid red; */
     padding: 1.2rem;
     gap: 10px;
@@ -33,4 +33,10 @@ font-size: 16px;
 font-weight: 500;
 line-height: 24px;
 margin-bottom: 0px;
+}
+
+@media (max-width :1024px) {
+    .sbgp-external{
+        width: 18vw;
+    }
 }

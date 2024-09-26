@@ -38,7 +38,7 @@ input[type=search]::placeholder{
 }
 .section2{
     justify-content: space-between;
-    width: 35%;
+    width: 25%;
 }
 .profile{
     width: 12rem;
@@ -51,8 +51,8 @@ input[type=search]::placeholder{
     line-height: 24px;
     color: #161e54;
 }
-/* @media screen and (max-width : 993px) {
-    .header-external{
-        width: 50%;
+@media screen and (max-width : 993px) {
+    .section2{
+        width: 35%;
     }
-} */
+}

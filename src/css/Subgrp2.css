@@ -1,6 +1,6 @@
 .sbgp2-external{
-    width: 321px;
-    height: 190px;
+    width: 19vw;
+    height:auto;
     border: 1px solid #e0e0e0;
     padding: 1.5rem;
     margin-top:20px ;
@@ -38,4 +38,9 @@
     line-height: 28px;
     color: #161e54;
     margin-top: 16px;
+}
+@media (max-width :1024px) {
+    .sbgp2-external{
+        width: 29vw;
+    }
 }

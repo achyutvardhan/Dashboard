@@ -1,0 +1,26 @@
+.list-external {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 8px;
+    background-color: #fafafa;
+    border-radius: 6px;
+}
+.pin-dot{
+    display: flex;
+    flex-direction: row;
+}
+.title>h4{
+    font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   color: #303030;
+}
+.dot{
+    margin-left: 20px;
+    margin-right: 16px;
+}

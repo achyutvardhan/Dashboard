@@ -1,0 +1,15 @@
+
+#root
+{
+  margin: 0%;
+  padding: 0%;
+}
+.app-external{
+  display: flex;
+  flex-direction: row;
+ /* overflow: hidden; */
+}
+.app-internal{
+  margin-left: 50px;
+  margin-right: auto;
+}
